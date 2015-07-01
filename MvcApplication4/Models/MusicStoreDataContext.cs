@@ -10,5 +10,6 @@ namespace MvcApplication4.Models
     {
         public DbSet<Artist> Artists { get; set; }
         public DbSet<Album> Albums { get; set; }
+        //public DbSet<ArtistDetails> ArtistDetails { get; set; }
     }
 }

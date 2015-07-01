@@ -15,6 +15,6 @@ namespace MvcApplication4.Models
         public string Name { get; set; }
 
         public virtual List<Album> Albums { get; set; }
-        public virtual List<ArtistDetails> ArtistDetails { get; set; }
+        public virtual ArtistDetails ArtistDetails { get; set; }
     }
 }
